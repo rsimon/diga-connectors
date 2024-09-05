@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import OpenSeadragon from 'openseadragon';
 import { OpenSeadragonAnnotator, OpenSeadragonViewer, useAnnotator } from '@annotorious/react';
-import { OSDConnectionPopup, OSDConnectorPlugin } from '@annotorious/plugin-connectors-react';
+import { OSDConnectionPopup, OSDConnectorPlugin, W3CImageRelationFormat } from '@annotorious/plugin-connectors-react';
 import { Controls } from './components/Controls';
 import { Tool } from './Tool';
 
@@ -27,12 +27,14 @@ export const App = () => {
   useEffect(() => {
     if (!anno) return
 
-    anno.on('createAnnotation', a => console.log(a))
+    anno.on('createAnnotation', a => console.log(a));
+    anno.on('updateAnnotation', a => console.log(a));
   }, [anno]);
 
   return (
     <div>
       <OpenSeadragonAnnotator
+        adapter={W3CImageRelationFormat('23787845:973711')}
         drawingEnabled={tool === 'DRAW'}
         tool="rectangle">
 
