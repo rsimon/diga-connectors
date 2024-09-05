@@ -1,0 +1,1 @@
+export type Tool = 'MOVE' | 'DRAW' | 'RELATION';

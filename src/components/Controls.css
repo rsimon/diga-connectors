@@ -1,0 +1,38 @@
+.annotation-actions {
+  bottom: 20px;
+  display: flex;
+  gap: 10px;
+  left: 20px;
+  position: absolute;
+}
+
+.annotation-actions button {
+  all: unset;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 
+    0 0 3px -1px rgba(0, 0, 0, 0.9), 
+    0 0 8px rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  color: #000;
+  cursor: pointer;
+  display: flex;
+  height: 40px;
+  justify-content: center;
+  width: 40px;
+}
+
+.annotation-actions button:hover {
+  background-color: #ffe6c3;
+  box-shadow:
+    0 0 3px -1px rgba(155, 104, 3, 0.9), 
+    0 0 8px rgba(155, 104, 3, 0.9);
+}
+
+.annotation-actions button.active {
+  background-color: #efa02f;
+  box-shadow:
+    0 0 3px -1px rgba(155, 104, 3, 0.9), 
+    0 0 8px rgba(155, 104, 3, 0.9);
+  color: #ffffff;
+}
