@@ -1,0 +1,47 @@
+[
+  {
+    "id": "8416b374-7276-4d8b-903f-bedc1cf141d7",
+    "target": {
+      "source": "23787845:973711",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1297.992045141001,1613.9373443405223,344.1975847030719,516.9488156102786"
+      }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [],
+    "created": "2024-09-05T11:41:47.394Z",
+    "creator": {
+      "isGuest": true,
+      "id": "S3BIBxKLtguYQCut_eSe"
+    }
+  },
+  {
+    "id": "21fef68c-2a00-445f-afee-8d3e39a6dae4",
+    "target": {
+      "source": "23787845:973711",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1792.4701989173207,1559.8389870892331,204.28833618307658,211.46408687193207"
+      }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [],
+    "created": "2024-09-05T11:41:59.243Z",
+    "creator": {
+      "isGuest": true,
+      "id": "S3BIBxKLtguYQCut_eSe"
+    },
+    "modified": "2024-09-05T11:44:33.612Z"
+  },
+  {
+    "id": "081210f4-5cdf-4eb9-91a5-7b4a9411bd8c",
+    "motivation": "linking",
+    "body": "21fef68c-2a00-445f-afee-8d3e39a6dae4",
+    "target": "8416b374-7276-4d8b-903f-bedc1cf141d7"
+  }
+]

@@ -25,7 +25,9 @@ export const App = () => {
   const [tool, setTool] = useState<Tool>('MOVE');
 
   useEffect(() => {
-    if (!anno) return
+    if (!anno) return;
+
+    anno.loadAnnotations('annotations.json');
 
     anno.on('createAnnotation', a => console.log(a));
     anno.on('updateAnnotation', a => console.log(a));
