@@ -1,0 +1,22 @@
+.a9s-connection-popup {
+  fill: #fff;
+}
+
+.diga-vocab-popup {
+  background-color: #ffffff;
+  border-radius: 0.25rem;
+  padding: 0.25rem;
+}
+
+.diga-vocab-popup select {
+  background-color: #ffffff;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 0.25rem;
+}
+
+.diga-vocab-popup select:hover {
+  background-color: #e7e7e7;
+  border-radius: 0.25rem;
+}
