@@ -12,7 +12,7 @@ const DUMMY_VOCABULARY = [
 
 export const VocabularyPopup = (props: ConnectionPopupProps) => {
 
-  const value = props.annotation.bodies.find(b => b.purpose === 'tagging')?.value;
+  const value = props.annotation.bodies.find(b => b.purpose === 'tagging' || !b.purpose)?.value;
 
   const onChange = (value: string) => {
     const existing = props.annotation.bodies.find(b => b.purpose === 'tagging');

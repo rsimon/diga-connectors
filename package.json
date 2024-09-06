@@ -19,7 +19,7 @@
     "vite": "^5.4.3"
   },
   "dependencies": {
-    "@annotorious/plugin-connectors-react": "0.0.8",
+    "@annotorious/plugin-connectors-react": "^0.0.10",
     "@annotorious/react": "^3.0.5",
     "lucide-react": "^0.439.0",
     "openseadragon": "^4.1.1",

@@ -43,5 +43,13 @@
     "motivation": "linking",
     "body": "21fef68c-2a00-445f-afee-8d3e39a6dae4",
     "target": "8416b374-7276-4d8b-903f-bedc1cf141d7"
+  },
+  {
+    "id": "323524ab-a927-4003-aa3c-56359325156a",
+    "motivation": "tagging",
+    "body": [{
+      "value": "is part of"
+    }],
+    "target": "081210f4-5cdf-4eb9-91a5-7b4a9411bd8c"
   }
 ]
