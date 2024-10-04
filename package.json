@@ -12,16 +12,16 @@
   },
   "devDependencies": {
     "@types/openseadragon": "^3.0.10",
-    "@types/react": "^18.3.5",
+    "@types/react": "^18.3.11",
     "@types/react-dom": "^18.3.0",
-    "@vitejs/plugin-react": "^4.3.1",
-    "typescript": "5.5.4",
-    "vite": "^5.4.3"
+    "@vitejs/plugin-react": "^4.3.2",
+    "typescript": "5.6.2",
+    "vite": "^5.4.8"
   },
   "dependencies": {
-    "@annotorious/plugin-connectors-react": "^0.0.10",
-    "@annotorious/react": "^3.0.5",
-    "lucide-react": "^0.439.0",
+    "@annotorious/plugin-connectors-react": "^0.2.4",
+    "@annotorious/react": "^3.0.11",
+    "lucide-react": "^0.447.0",
     "openseadragon": "^4.1.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
